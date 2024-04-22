@@ -1,0 +1,256 @@
+{
+  "groups": {
+    "1": [
+      {
+        "name": "Anthony Albanese",
+        "color": "gray",
+        "groupId": "1",
+        "status": "Absent"
+      },
+      {
+        "name": "Anne Aly",
+        "color": "purple",
+        "groupId": "1",
+        "status": "Paired"
+      },
+      {
+        "name": "Michelle Ananda Rajah",
+        "color": "gray",
+        "groupId": "1",
+        "status": "Absent"
+      },
+      {
+        "name": "Chris Bowen",
+        "color": "gray",
+        "groupId": "1",
+        "status": "Absent"
+      },
+      {
+        "name": "Tony Burke",
+        "color": "purple",
+        "groupId": "1",
+        "status": "Paired"
+      },
+      {
+        "name": "Matt Burnell",
+        "color": "purple",
+        "groupId": "1",
+        "status": "Paired"
+      },
+      {
+        "name": "Linda Burney",
+        "color": "purple",
+        "groupId": "1",
+        "status": "Paired"
+      },
+      {
+        "name": "Josh Burns",
+        "color": "gray",
+        "groupId": "1",
+        "status": "Absent"
+      },
+      {
+        "name": "Mark Butler",
+        "color": "gray",
+        "groupId": "1",
+        "status": "Absent"
+      },
+      {
+        "name": "Alison Byrnes",
+        "color": "gray",
+        "groupId": "1",
+        "status": "Absent"
+      },
+      {
+        "name": "Jim Chalmers",
+        "color": "gray",
+        "groupId": "1",
+        "status": "Absent"
+      },
+      {
+        "name": "Andrew Charlton",
+        "color": "gray",
+        "groupId": "1",
+        "status": "Absent"
+      }
+    ],
+    "2": [
+      {
+        "name": "Michelle Ananda Rajah",
+        "color": "purple",
+        "groupId": "2",
+        "status": "Paired"
+      },
+      {
+        "name": "Chris Bowen",
+        "color": "gray",
+        "groupId": "2",
+        "status": "Absent"
+      },
+      {
+        "name": "Tony Burke",
+        "color": "gray",
+        "groupId": "2",
+        "status": "Absent"
+      },
+      {
+        "name": "Matt Burnell",
+        "color": "gray",
+        "groupId": "2",
+        "status": "Absent"
+      },
+      {
+        "name": "Linda Burney",
+        "color": "gray",
+        "groupId": "2",
+        "status": "Absent"
+      },
+      {
+        "name": "Josh Burns",
+        "color": "gray",
+        "groupId": "2",
+        "status": "Absent"
+      }
+    ],
+    "3": [
+      {
+        "name": "Matt Burnell",
+        "color": "purple",
+        "groupId": "3",
+        "status": "Paired"
+      },
+      {
+        "name": "Linda Burney",
+        "color": "purple",
+        "groupId": "3",
+        "status": "Paired"
+      },
+      {
+        "name": "Josh Burns",
+        "color": "purple",
+        "groupId": "3",
+        "status": "Paired"
+      },
+      {
+        "name": "Mark Butler",
+        "color": "yellow",
+        "groupId": "3",
+        "status": "Present"
+      },
+      {
+        "name": "Alison Byrnes",
+        "color": "yellow",
+        "groupId": "3",
+        "status": "Present"
+      },
+      {
+        "name": "Jim Chalmers",
+        "color": "yellow",
+        "groupId": "3",
+        "status": "Present"
+      },
+      {
+        "name": "Andrew Charlton",
+        "color": "yellow",
+        "groupId": "3",
+        "status": "Present"
+      }
+    ],
+    "4": [
+      {
+        "name": "Anthony Albanese",
+        "color": "pink",
+        "groupId": "4",
+        "status": "Present"
+      }
+    ],
+    "5": [
+      {
+        "name": "Anthony Albanese",
+        "color": "orange",
+        "groupId": "5",
+        "status": "Present"
+      }
+    ],
+    "6": [
+      {
+        "name": "Anthony Albanese",
+        "color": "brown",
+        "groupId": "6",
+        "status": "Present"
+      }
+    ],
+    "7": [
+      {
+        "name": "Anthony Albanese",
+        "color": "maroon",
+        "groupId": "7",
+        "status": "Present"
+      }
+    ],
+    "8": [
+      {
+        "name": "Anthony Albanese",
+        "color": "light blue",
+        "groupId": "8",
+        "status": "Present"
+      }
+    ],
+    "9": [
+      {
+        "name": "Anthony Albanese",
+        "color": "green",
+        "groupId": "9",
+        "status": "Present"
+      }
+    ],
+    "10": [
+      {
+        "name": "Anthony Albanese",
+        "color": "light green",
+        "groupId": "10",
+        "status": "Present"
+      }
+    ],
+    "11": [
+      {
+        "name": "Anthony Albanese",
+        "color": "purple",
+        "groupId": "11",
+        "status": "Present"
+      }
+    ],
+    "12": [
+      {
+        "name": "Anthony Albanese",
+        "color": "magenta",
+        "groupId": "12",
+        "status": "Present"
+      }
+    ],
+    "13": [
+      {
+        "name": "Anthony Albanese",
+        "color": "black",
+        "groupId": "13",
+        "status": "Present"
+      }
+    ],
+    "14": [
+      {
+        "name": "Anthony Albanese",
+        "color": "red",
+        "groupId": "14",
+        "status": "Present"
+      }
+    ],
+    "15": [
+      {
+        "name": "Anthony Albanese",
+        "color": "red",
+        "groupId": "15",
+        "status": "Present"
+      }
+    ]
+  }
+}
