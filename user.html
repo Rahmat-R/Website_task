@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Attendance View</title>
+    <style>
+        .section {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .attendance-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .group {
+            margin: 0 10px;
+        }
+
+        .member-ball {
+            display: inline-block;
+            margin: 5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+        }
+
+        .status-list {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="attendance-container">
+    <div class="section" id="section1">
+        <h2>Group 1</h2>
+    </div>
+    <div class="section" id="section2">
+        <h2>Group 2</h2>
+    </div>
+    <div class="section" id="sectioncross">
+        <h2>Cross Groups</h2>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $.get("/groups")
+            .done(function (response) {
+                let groupsData = typeof response === "string" ? JSON.parse(response) : response;
+                displayMembers(groupsData);
+            });
+
+
+        function displayMembers(groupsData) {
+            Object.entries(groupsData.groups).forEach(([groupId, members]) => {
+                const isCrossGroup = parseInt(groupId) > 2;
+                const sectionId = isCrossGroup ? 'cross' : groupId;
+                let groupContainer = $(`#group${sectionId}`);
+                if (groupContainer.length === 0) {
+                    groupContainer = $(`<div class="group" id="group${sectionId}"></div>`);
+                    $(`#section${sectionId}`).append(groupContainer);
+                }
+
+                let statusList = $(`#status${sectionId}`);
+                if (statusList.length === 0) {
+                    statusList = $(`<div class="status-list" id="status${sectionId}"></div>`);
+                    $(`#section${sectionId}`).append(statusList);
+                }
+
+                members.forEach(member => {
+                    const colorClass = member.status === 'Absent' ? 'gray' : member.status === 'Paired' ? 'purple' : member.color;
+                    groupContainer.append(`<div class="member-ball" style="background-color: ${colorClass};"></div>`);
+
+                    if (member.status === 'Absent' || member.status === 'Paired') {
+                        statusList.append(`<div>${member.name} = ${member.status}</div>`);
+                    }
+                });
+            });
+        }
+
+
+    });
+</script>
+
+</body>
+</html>
