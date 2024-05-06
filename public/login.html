@@ -31,7 +31,7 @@
         console.log (username,password)
         try {
             var xhr = new XMLHttpRequest();
-            xhr.open('POST', 'https://website-task-1.onrender.com:3000/login', true);
+            xhr.open('POST', 'https://soth-e286537f8077.herokuapp.com:process.env.PORT/login', true);
             xhr.setRequestHeader('Content-Type', 'application/json');
             var jsonData = JSON.stringify(
                 { username: username, password: password }
