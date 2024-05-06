@@ -6,7 +6,7 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-app.use(express.static('/Library/WebServer/Documents/creative_task/public'));
+app.use(express.static('/public'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
